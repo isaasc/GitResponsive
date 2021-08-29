@@ -54,12 +54,14 @@ body {
 .colecao__parte__esquerda {
   width: 90%;
   padding-top: 0.9375rem;
+  padding-bottom: 2.7rem;
+  border-bottom: 1px solid black;
 }
 
 .colecao__sections {
   background-color: #ffffff;
   min-height: 30vh;
-  margin-top: 1.875rem;
+  margin-top: 3rem;
 }
 
 .colecao__imagem {
@@ -93,9 +95,63 @@ body {
   padding: 5px;
 }
 
+
+.leia__mais {
+  display: flex;
+  margin-top: 45px;
+  padding-bottom: 27px;
+  border-bottom: 1px solid #adacac;
+}
+
+.leia__mais__imagem {
+  width: 25%;
+}
+
+.leia__mais__texto {
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.leia__mais__link {
+  color: #333333;
+}
 /* main */
 .parte__direita {
   width: 70%;
   height: 100vh;
   background-color: #ffffff;
+}
+
+@media(max-width:990px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .parte__esquerda {
+    width: 100%;
+  }
+
+  .header__central {
+    text-align: center;
+    margin-right: 0;
+    padding-right: 0;
+    border-top: 1px solid #adacac;
+  }
+
+  .colecao__parte__esquerda {
+    display: flex;
+    width: 100%;
+  }
+
+  .fa-git-alt {
+    font-size: 6rem;
+  }
+
+  .parte__direita {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+
+  }
 }
