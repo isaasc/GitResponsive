@@ -3,7 +3,7 @@ O projeto foi realizado para a disciplina de "Web Standards and Game Developing"
 <br>
 
 ### Divido em 2 etapas:
-* 1º Estrutura do projeto apartir de um wireframe disponibilado; 
+* 1º Estrutura do projeto a partir do wireframe disponibilizado pelo professor; 
 * 2º Responsividade.
 
 ## 🛠 Tecnologias
