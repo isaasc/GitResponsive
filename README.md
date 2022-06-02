@@ -18,7 +18,7 @@ Para o desenvolvimento deste projeto utilizei as seguintes tecnologias:
 
 ```bash
 # Clone o repositório
-git clone https://github.com/isaasc/GitResponsive
+git clone https://github.com/isaasc/GitResponsive.git
 ```
 
 ##### Coded with 💜 by <a href="https://github.com/isaasc/">Isabella Campos</a>
